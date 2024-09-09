@@ -1,0 +1,84 @@
+.BestAndNewShop {
+    display: flex;
+    gap: max(20px, 1vw);
+
+    .BestAndNewShop__left{
+        width: calc(50% - max(10px, 0.5vw));
+        aspect-ratio: 1/0.87;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url('../../../assets/Home/BestAndNewShop/IMG.webp');
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding-right: max(30px, 10%);
+
+        .BestAndNewShop__left__inside {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            color: #fff;
+
+            .with16SemiBold {
+                width: fit-content;
+                padding: max(11px, 0.55vw) 0;
+                border: 2px solid #FFFFFF ;
+                color: #fff;
+                margin: 0 auto;
+            }
+        }
+    }
+
+    .BestAndNewShop__right{
+        width: calc(50% - max(10px, 0.5vw));
+        aspect-ratio: 1/0.87;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url('../../../assets/Home/BestAndNewShop/IMG-1.webp');
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding-left: max(30px, 10%);
+        .BestAndNewShop__right__inside {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            color: #fff;
+
+            .with16SemiBold {
+                width: fit-content;
+                padding: max(11px, 0.55vw) 0;
+                border: 2px solid #FFFFFF ;
+                color: #fff;
+                margin: 0 auto;
+            }
+        }
+    }
+
+    @media (max-width: 700px) {
+        flex-direction: column;
+
+        .BestAndNewShop__left {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0;
+        }
+        .BestAndNewShop__right {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0;
+        }
+    }
+
+    @media (max-width: 360px) {
+        .with44SemiBold {
+            font-size: max(30px, 1.5vw);
+        }
+    }
+}

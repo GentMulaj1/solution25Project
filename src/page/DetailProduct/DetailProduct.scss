@@ -1,0 +1,10 @@
+.DetailProduct {
+
+    .DetailProduct__inside {
+        display: flex;
+        flex-direction: column;
+        gap: max(60px, 3vw);
+        margin-bottom: max(70px, 3.5vw);
+
+    }
+}

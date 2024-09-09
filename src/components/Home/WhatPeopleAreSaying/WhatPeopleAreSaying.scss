@@ -1,0 +1,75 @@
+.WhatPeopleAreSaying {
+  padding: max(79px, 3.95vw) 4%;
+  display: flex;
+  flex-direction: column;
+  background-color: #f7f7f7;
+
+  .with36SemiBold {
+    text-align: center;
+  }
+
+  .WhatPeopleAreSaying__cards {
+    display: flex;
+    flex-direction: row;
+    gap: max(30px, 1.5vw);
+    height: max(400px, 20vw);
+
+    .react-multi-carousel-list {
+      width: 100%;
+      display: flex;
+
+      .react-multi-carousel-track {
+        display: flex;
+
+        li {
+          width: 90%;
+
+          .WhatPeopleAreSayingCard {
+            width: 95%;
+          }
+        }
+      }
+
+      .react-multi-carousel-dot {
+        display: flex;
+        align-items: center;
+
+        button {
+          width: max(8px, 0.4vw);
+          height: max(8px, 0.4vw);
+        }
+      }
+
+      .react-multi-carousel-dot--active {
+        display: flex;
+        align-items: center;
+
+        button {
+          width: max(16px, 0.8vw);
+          height: max(16px, 0.8vw);
+          aspect-ratio: 1/1;
+          position: relative;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background-color: transparent;
+
+          &::before {
+            content: "";
+            width: max(8px, 0.4vw) !important;
+            height: max(8px, 0.4vw) !important;
+            aspect-ratio: 1/1;
+            background-color: #000;
+            border-radius: 100%;
+          }
+        }
+      }
+
+      .custom-dot-list-style {
+        display: flex;
+        align-items: center;
+        margin-top: max(40px, 2vw);
+      }
+    }
+  }
+}

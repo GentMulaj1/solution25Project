@@ -1,0 +1,12 @@
+.MainDetail {
+    padding: 0 4%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: max(60px, 3vw);
+
+    @media (max-width: 800px) {
+        display: flex;
+        flex-direction: column;
+        
+    }
+}

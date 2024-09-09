@@ -1,0 +1,77 @@
+.ExploreCollections {
+    display: flex;
+    flex-direction: column;
+    gap: max(37px, 1.85vw);
+    overflow: hidden;
+
+    .with36SemiBold {
+        text-align: center;
+    }
+
+    .ExploreCollections__cards {
+        display: flex;
+        gap: max(20px, 1vw);
+        position: relative;
+        animation: slide 20s linear infinite;
+        width: calc(200% + max(20px, 1vw)); 
+
+        &:hover {
+            animation-play-state: paused;
+          }
+
+        @media (max-width: 800px) {
+        width: calc(400% + max(20px, 1vw)); 
+        }
+
+        @media (max-width: 500px) {
+            width: calc(700% + max(20px, 1vw)); 
+            }
+
+        .ExploreCollections__card {
+            width: calc(100% / 4 - max(20px, 1vw));
+            aspect-ratio: 0.75/1;
+            border-radius: max(20px, 1vw);
+            overflow: hidden;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+            padding-bottom: max(30px, 1.5vw);
+
+            .ExploreCollections__btn {
+                cursor: pointer;
+                width: max(200px, 10vw);
+                height: max(54px, 2.7vw);
+                border-radius: max(12px, 0.6vw);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: #fff;
+                color: #1F1F1F;
+                transition: all 250ms ease-in-out;
+
+                &:hover {
+                    background-color: #1F1F1F;
+                    color: #FFF;
+                }
+
+                @media (max-width:500px) {
+                    width: 90%;
+                    font-size: max(16px, 0.8vw);
+                    
+                }
+            }
+        }
+    }
+
+    @keyframes slide {
+        0% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(-50%);
+        }
+    }
+}

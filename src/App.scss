@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+    ul {
+        list-style: none;
+    }
+}
+
+@font-face {
+    font-family: "lato-semibold";
+    src: url("./fonts/Lato-Semibold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "lato-regular";
+    src: url("./fonts/Lato-Regular.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "lato-medium";
+    src: url("./fonts/Lato-Medium.woff2") format("woff2");
+}
+
+.with14Medium {
+    font-size: max(14px, 0.7vw);
+    font-family: "lato-medium";
+}
+
+.with16Medium {
+    font-size: max(16px, 0.8vw);
+    font-family: "lato-medium";
+}
+
+.with44SemiBold {
+    font-size: max(44px, 2.2vw);
+    font-family: "lato-semibold";
+}
+
+.with36SemiBold {
+    font-size: max(36px, 1.8vw);
+    font-family: "lato-semibold";
+}
+
+.with20SemiBold {
+    font-size: max(20px, 1vw);
+    font-family: "lato-semibold";
+}
+
+.with24SemiBold {
+    font-size: max(24px, 1.2vw);
+    font-family: "lato-semibold";
+}
+
+.with18SemiBold {
+    font-size: max(18px, 0.9vw);
+    font-family: "lato-semibold";
+}
+
+.with16SemiBold {
+    font-size: max(16px, 0.8vw);
+    font-family: "lato-semibold";
+}
+
+.with14SemiBold {
+    font-size: max(14px, 0.7vw);
+    font-family: "lato-semibold";
+}
+
+.with12SemiBold {
+    font-size: max(12px, 0.6vw);
+    font-family: "lato-semibold";
+}
+
+.with24Regular {
+    font-size: max(24px, 1.2vw);
+    font-family: "lato-regular";
+}
+
+.with16Regular {
+    font-size: max(16px, 0.8vw);
+    font-family: "lato-regular";
+}
+
+.with14Regular {
+    font-size: max(14px, 0.7vw);
+    font-family: "lato-regular";
+}
+
+.with12Regular {
+    font-size: max(12px, 0.6vw);
+    font-family: "lato-regular";
+}
+

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <g id="Icon" transform="translate(0)">
+    <rect id="Icon_Frame_Background_" data-name="Icon [Frame Background]" width="40" height="40" fill="none"/>
+    <path id="Vector" d="M4.167,1.667H.833A.833.833,0,0,1,.833,0H4.167a.833.833,0,1,1,0,1.667Z" transform="translate(6.666 30)" fill="#1f1f1f"/>
+    <path id="Vector-2" data-name="Vector" d="M15.418,15H13.334a.833.833,0,0,1,0-1.667h1.392l1.123-5.987A5.833,5.833,0,0,0,10,1.667H4.529L1.878,13.333h4.79a.833.833,0,0,1,0,1.667H.834a.833.833,0,0,1-.813-1.017L3.051.65A.833.833,0,0,1,3.864,0H10a7.509,7.509,0,0,1,7.5,7.5l-1.265,6.82a.831.831,0,0,1-.818.68Z" transform="translate(22.498 16.667)" fill="#1f1f1f"/>
+    <path id="Vector-3" data-name="Vector" d="M4.167,8.333A4.167,4.167,0,1,1,8.333,4.167,4.171,4.171,0,0,1,4.167,8.333Zm0-6.667a2.5,2.5,0,1,0,2.5,2.5,2.5,2.5,0,0,0-2.5-2.5Z" transform="translate(28.334 26.667)" fill="#1f1f1f"/>
+    <path id="Vector-4" data-name="Vector" d="M4.167,8.333A4.167,4.167,0,1,1,8.333,4.167,4.171,4.171,0,0,1,4.167,8.333Zm0-6.667a2.5,2.5,0,1,0,2.5,2.5,2.5,2.5,0,0,0-2.5-2.5Z" transform="translate(10 26.667)" fill="#1f1f1f"/>
+    <path id="Vector-5" data-name="Vector" d="M7.5,1.667H.833A.833.833,0,0,1,.833,0H7.5a.833.833,0,0,1,0,1.667Z" transform="translate(3.334 15)" fill="#1f1f1f"/>
+    <path id="Vector-6" data-name="Vector" d="M9.167,1.667H.833A.833.833,0,0,1,.833,0H9.167a.833.833,0,1,1,0,1.667Z" transform="translate(1.666 20)" fill="#1f1f1f"/>
+    <path id="Vector-7" data-name="Vector" d="M10.833,1.667h-10A.833.833,0,0,1,.833,0h10a.833.833,0,1,1,0,1.667Z" transform="translate(0 25)" fill="#1f1f1f"/>
+    <path id="Vector-8" data-name="Vector" d="M16.667,20H10.833a.833.833,0,1,1,0-1.667H16L19.788,1.667H.833A.833.833,0,0,1,.833,0h20a.833.833,0,0,1,.813,1.017L17.48,19.35a.834.834,0,0,1-.813.65Z" transform="translate(6.666 11.667)" fill="#1f1f1f"/>
+  </g>
+</svg>

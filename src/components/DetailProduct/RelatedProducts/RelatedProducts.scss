@@ -1,0 +1,22 @@
+.RelatedProducts {
+    color: #1F1F1F;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: max(37px, 1.85vw);
+    padding: 0 4%;
+
+    .with36SemiBold {
+    text-align: center;
+    }
+
+    .RelatedProducts__inside {
+        display: flex;
+        gap: max(25px, 1.25vw);
+        width: 100%;
+
+        .ItemCard {
+            width: calc(100% / 4 - max(20px, 1vw));
+        }
+    }
+}

@@ -1,0 +1,170 @@
+.WhatsNews {
+    padding: 0 4%;
+
+    // display: grid;
+    // grid-template-columns: repeat(4, 1fr);
+    // gap: max(30px, 1.5vw);
+  
+    .noProducts {
+        font-size: max(12px, 0.9vw);
+        font-family: "lato-semibold";
+        margin: 0 auto;
+        width: 100vw;
+        text-align: center;
+    }
+
+    .bestShopTabs {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+  
+      .bestShopTablists {
+        width: fit-content;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: max(50px, 2.5vw);
+  
+        height: max(54px, 2.7vw);
+        border-radius: max(16px, 0.8vw);
+        background-color: #f7f7f7;
+  
+        .bestShopTab {
+          cursor: pointer;
+          padding: max(8px, 0.4vw) max(28px, 1.4vw);
+  
+          color: #696C70;
+
+          @media (max-width: 410px) {
+            width: 100%;
+          }
+        }
+        font-size: max(14px, 0.7vw);
+  
+        @media (max-width: 1070px) {
+        }
+  
+        @media (max-width: 900px) {
+        }
+  
+        @media (max-width: 600px) {
+          padding: 0;
+          flex-wrap: wrap;
+          height: auto;
+          justify-content: center;
+          gap: max(20px, 1vw);
+        }
+  
+        @media (max-width: 470px) {
+          font-size: max(13px, 0.65vw);
+          padding: 0 max(14px, 0.7vw);
+        }
+
+        @media (max-width: 410px) {
+            flex-direction: column;
+            width: 100%;
+            padding: max(20px, 1vw) max(10px, 0.5vw);
+          }
+      }
+  
+      .react-tabs__tab--selected {
+        border-radius: max(16px, 0.8vw);
+        background-color: #fff;
+        color: #1F1F1F !important;
+  
+        &:focus {
+          outline: none;
+        }
+  
+      }
+  
+      .bestShopTabPanel {
+        display: grid;
+  
+        .react-multi-carousel-list {
+          width: 100%;
+          display: flex;
+          column-gap: 30px;
+  
+          .react-multi-carousel-track {
+            display: flex;
+            padding-left: max(20px, 1vw);
+            padding-right: max(20px, 1vw);
+  
+            li {
+              .ItemCard {
+                width: calc(100% - max(40px, 1vw));
+                margin-bottom: max(10px, 0.5vw);
+              }
+            }
+          }
+  
+          .react-multiple-carousel__arrow--left {
+            left: 0;
+            width: max(44px, 2.2vw);
+            height: max(44px, 2.2vw);
+            background-color: #fff;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  
+            &::before {
+              filter: invert(100%);
+            }
+          }
+  
+          .react-multiple-carousel__arrow--right {
+            right: 0;
+            width: max(44px, 2.2vw);
+            height: max(44px, 2.2vw);
+            background-color: #fff;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  
+            &::before {
+              filter: invert(100%);
+            }
+          }
+  
+          .react-multi-carousel-dot {
+            display: flex;
+            align-items: center;
+  
+            button {
+              width: max(8px, 0.4vw);
+              height: max(8px, 0.4vw);
+            }
+          }
+  
+          .react-multi-carousel-dot--active {
+            display: flex;
+            align-items: center;
+  
+            button {
+              width: max(16px, 0.8vw);
+              height: max(16px, 0.8vw);
+              aspect-ratio: 1/1;
+              position: relative;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              background-color: transparent;
+  
+              &::before {
+                content: "";
+                width: max(8px, 0.4vw) !important;
+                height: max(8px, 0.4vw) !important;
+                aspect-ratio: 1/1;
+                background-color: #000;
+                border-radius: 100%;
+              }
+            }
+          }
+  
+          .custom-dot-list-style {
+            display: flex;
+            align-items: center;
+            margin-top: max(40px, 2vw);
+          }
+        }
+      }
+    }
+}

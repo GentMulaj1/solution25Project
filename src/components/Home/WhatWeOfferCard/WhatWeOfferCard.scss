@@ -1,0 +1,37 @@
+.WhatWeOfferCard {
+    display: flex;
+    flex-direction: column;
+    gap: max(22px, 1.1vw);
+    text-align: center;
+
+    .WhatWeOfferCard__icon {
+        height: max(80px, 4vw);
+    }
+
+    .WhatWeOfferCard__texts {
+        display: flex;
+        flex-direction: column;
+        gap: max(16px, 0.8vw);
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+        .with14Regular {
+            color: #696C70;
+        }
+    }
+
+    @media (max-width: 450px) {
+        .WhatWeOfferCard__icon {
+            height: max(60px, 3vw);
+        }
+
+        .with20SemiBold {
+            font-size: max(16px, 0.8vw);
+        }
+
+        .with14Regular {
+            font-size: max(12px, 0.6vw);
+        }
+    }
+}

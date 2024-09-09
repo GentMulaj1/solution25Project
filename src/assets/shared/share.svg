@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="bi:share-fill_Frame_Clip_Content_Mask_" data-name="bi:share-fill [Frame Clip Content Mask]" width="20" height="20" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="bi:share-fill_Clip_Content_" data-name="bi:share-fill (Clip Content)" clip-path="url(#clip-path)">
+    <rect id="bi:share-fill_Frame_Background_" data-name="bi:share-fill [Frame Background]" width="20" height="20" fill="none"/>
+    <path id="Vector" d="M13.75,3.125A3.125,3.125,0,1,1,14.5,5.16l-8.4,3.9a3.124,3.124,0,0,1,0,1.88l8.4,3.9a3.125,3.125,0,1,1-.61,1.1l-8.4-3.9a3.125,3.125,0,1,1,0-4.07l8.4-3.9a3.125,3.125,0,0,1-.144-.94Z" fill="#1f1f1f"/>
+  </g>
+</svg>

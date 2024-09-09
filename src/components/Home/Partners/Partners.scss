@@ -1,0 +1,58 @@
+.Partners {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: max(50px, 2.5vw);
+    padding: 0 4%;
+
+    .PartnersIcon1 {
+        content: url('../../../assets/Home/Partners/1.svg');
+        height: max(44px, 2.2vw);
+    }
+
+    .PartnersIcon2 {
+        content: url('../../../assets/Home/Partners/2.svg');
+        height: max(44px, 2.2vw);
+    }
+
+    .PartnersIcon3 {
+        content: url('../../../assets/Home/Partners/3.svg');
+        height: max(32px, 1.6vw);
+    }
+
+    .PartnersIcon4 {
+        content: url('../../../assets/Home/Partners/4.svg');
+        height: max(36px, 1.8vw);
+    }
+
+    .PartnersIcon5 {
+        content: url('../../../assets/Home/Partners/5.svg');
+        height: max(33px, 1.65vw);
+    }
+
+    .PartnersIcon6 {
+        content: url('../../../assets/Home/Partners/6.svg');
+        height: max(40px, 2vw);
+    }
+
+    @media (max-width: 1200px) {
+
+        .PartnersIcon {
+            height: auto;
+            width: calc(100% / 10);
+        }
+    }
+
+    @media (max-width: 700px) {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        justify-content: center;
+        
+        .PartnersIcon {
+            height: auto;
+            width: calc(100% / 2);
+            min-width: 80px;
+        }
+    }
+}

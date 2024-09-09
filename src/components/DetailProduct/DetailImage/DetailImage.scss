@@ -1,0 +1,21 @@
+.DetailImage {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: max(20px, 1vw);
+    height: fit-content;
+    
+    .imageInside {
+        width: 100%;
+        aspect-ratio: 0.75/1;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: max(20px, 1vw);
+        overflow: hidden;
+    }
+
+    @media (max-width: 300px) {
+        gap: max(10px, 0.5vw);
+        
+    }
+}

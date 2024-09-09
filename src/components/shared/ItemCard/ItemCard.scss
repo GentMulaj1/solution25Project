@@ -1,0 +1,97 @@
+.ItemCard {
+    display: flex;
+    flex-direction: column;
+    gap: max(18px, 0.9vw);
+    border-radius: max(16px, 0.8vw);
+    padding-bottom: max(18px, 0.9vw);
+
+    * {
+        color: #1F1F1F;
+    }
+
+    .ItemCard__top {
+        border-radius: max(16px, 0.8vw);
+        overflow: hidden;
+        position: relative;
+        width: 100%;
+        aspect-ratio: 0.75/ 1;
+        background-image: url('../../../assets/ItemCard/IMG-1.webp');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+
+        .ItemCard__button {
+            border-radius: max(36px, 1.8vw);
+            background-color: #DB4444;
+            color: #fff;
+            padding: max(3px, 0.15vw) max(12px, 0.6vw);
+            position: relative;
+            top: max(15px, 0.75vw);
+            left: max(20px, 1vw);
+        }
+
+        .ItemCard__addToCart {
+            width: max(32px, 1.6vw);
+            aspect-ratio: 1/1;
+            background-color: #fff;
+            border-radius: 100%;
+            outline: none;
+            border: none;
+            cursor: pointer;
+            position: relative;
+            top: max(12px, 0.6vw);
+            right: max(12px, 0.6vw);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            &::before {
+                position: absolute;
+                content: url('../../../assets/ItemCard/Heart.svg');
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            &:active {
+                box-shadow:inset rgba(201, 23, 23, 0.5) 0px 0px max(15px, 0.75vw);
+
+            }
+        }
+    }
+
+    .ItemCard__bottom{
+        display: flex;
+        flex-direction: column;
+        gap: max(5px, 0.25vw);
+        padding-left: max(5px, 0.25vw);
+
+        .itemCard__price{
+            display: flex;
+            align-items: center;
+            gap: max(8px, 0.4vw);
+
+            .with14Regular{
+                color: #A0A0A0;
+            }
+
+            .with14Medium {
+                border-radius: max(36px, 1.8vw);
+                background-color: #D2EF9A;
+                padding: max(4px, 0.2vw) max(10px, 0.5vw);
+            }
+
+        }
+    }
+
+    &:hover {
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 4px;
+        cursor: pointer;
+        transition: all 250ms linear;
+    }
+
+
+}

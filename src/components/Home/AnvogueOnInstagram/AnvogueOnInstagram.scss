@@ -1,0 +1,81 @@
+.AnvogueOnInstagram {
+  display: flex;
+  flex-direction: column;
+  gap: max(52px, 2.6vw);
+  padding: 0 4%;
+
+  .AnvogueOnInstagram__top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: max(16px, 0.8vw);
+
+    .AnvogueOnInstagram__title {
+      font-size: max(36px, 1.8vw);
+      font-family: "lato-semibold";
+      text-align: center;
+    }
+
+    .hashtag {
+      font-size: max(16px, 0.8vw);
+      font-family: "lato-regular";
+    }
+  }
+
+  .AnvogueOnInstagram__bottom {
+    display: flex;
+    align-items: center;
+    gap: max(16px, 0.8vw);
+
+    .AnvogueOnInstagramImage {
+      width: calc(100% / 5);
+      aspect-ratio: 1/1;
+      border-radius: max(32px, 1.6vw);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .AnvogueOnInstagramImage1 {
+      background-image: url("../../../assets/Home/AnvogueOnInstagram/IMG.webp");
+    }
+
+    .AnvogueOnInstagramImage2 {
+      background-image: url("../../../assets/Home/AnvogueOnInstagram/IMG-1.webp");
+    }
+
+    .AnvogueOnInstagramImage3 {
+      background-image: url("../../../assets/Home/AnvogueOnInstagram/IMG-2.webp");
+    }
+
+    .AnvogueOnInstagramImage4 {
+      background-image: url("../../../assets/Home/AnvogueOnInstagram/IMG-3.webp");
+    }
+
+    .AnvogueOnInstagramImage5 {
+      background-image: url("../../../assets/Home/AnvogueOnInstagram/IMG-4.webp");
+    }
+
+    @media (max-width: 1000px) {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      .AnvogueOnInstagramImage {
+        width: max(200px, 10vw);
+      }
+    }
+
+    @media (max-width: 470px) {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      .AnvogueOnInstagramImage {
+        width: max(200px, 10vw);
+        width: 100%;
+      }
+    }
+  }
+}

@@ -1,0 +1,297 @@
+.AllDetails {
+  display: flex;
+  flex-direction: column;
+  gap: max(26px, 1.3vw);
+
+  * {
+    color: #1f1f1f;
+  }
+
+  .AllDetails__1 {
+    border: 1px solid #e9e9e9;
+    position: relative;
+
+    .AllDetails__1__left {
+      display: flex;
+      flex-direction: column;
+      gap: max(25px, 1.25vw);
+      padding-bottom: max(28px, 1.4vw);
+
+      .AllDetails__1__inside {
+        display: flex;
+        flex-direction: column;
+        gap: max(10px, 0.5vw);
+      }
+
+      .with12SemiBold {
+        font-family: sans-serif;
+        font-weight: bolder;
+        color: #a0a0a0;
+      }
+
+      .priceAndDsc {
+        display: flex;
+        flex-direction: column;
+        gap: max(16px, 0.8vw);
+
+        .with16Regular {
+          line-height: max(26px, 1.3vw);
+        }
+      }
+
+      .AllDetails__stars {
+        display: flex;
+        align-items: center;
+        gap: max(8px, 0.4vw);
+
+        .stars {
+          display: flex;
+          align-items: center;
+          gap: max(2px, 0.1vw);
+          svg {
+            fill: #ecb018;
+            width: max(11px, 0.55vw);
+            height: max(11px, 0.55vw);
+
+            &:last-child {
+              fill: #e9e9e9;
+            }
+          }
+        }
+
+        p {
+          color: #696c70;
+        }
+      }
+    }
+
+    .AllDetails__1__right {
+      position: absolute;
+      right: 0;
+      top: 0;
+      border: 1px solid #e9e9e9;
+      border-radius: max(12px, 0.6vw);
+      width: max(48px, 2.4vw);
+      height: max(48px, 2.4vw);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+
+      .AllDetails__1__right__heart {
+        width: max(20px, 1vw);
+        content: url("../../../assets/shared/heart.svg");
+      }
+
+      &:hover {
+        box-shadow: rgba(255, 0, 0, 0.2) inset 0px 0px max(10px, 0.5vw);
+      }
+    }
+  }
+
+  .AllDetails__2 {
+    display: flex;
+    flex-direction: column;
+    gap: max(22px, 1.1vw);
+    border: 1px solid #e9e9e9;
+
+    .colors {
+      display: flex;
+      flex-direction: column;
+      gap: max(15px, 0.75vw);
+
+      .with16Medium {
+        display: flex;
+        align-items: center;
+        gap: max(5px, 0.25vw);
+        text-transform: capitalize;
+      }
+
+      .colorsPalets {
+        display: flex;
+        align-items: center;
+        gap: max(8px, 0.4vw);
+
+        .colorPalet {
+          width: max(48px, 2.4vw);
+          height: max(48px, 2.4vw);
+          border-radius: max(12px, 0.6vw);
+          box-shadow: rgba(0, 0, 0, 0.1) 0 0 2px;
+        }
+
+        .colorPalet1 {
+          background-color: #fefaef;
+        }
+
+        .colorPalet2 {
+          background-color: #e8f3e8;
+        }
+
+        .colorPalet3 {
+          background-color: #011183;
+        }
+
+        .colorPalet4 {
+          background-color: #fef2f3;
+        }
+
+        .colorPalet5 {
+          background-color: #fffefe;
+        }
+      }
+    }
+
+    .size {
+      .with16Medium {
+        span {
+          color: rgba(219, 68, 68, 1);
+          text-decoration: underline;
+        }
+      }
+
+      .sizePalets {
+        display: flex;
+        align-items: center;
+        gap: max(8px, 0.4vw);
+      }
+
+      .sizePalet {
+        width: max(48px, 2.4vw);
+        height: max(48px, 2.4vw);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+      }
+
+      .sizePalet1 {
+        background-color: rgba(255, 255, 255, 1);
+        border: 1px solid #eeeeef;
+        color: rgba(105, 108, 112, 1);
+      }
+
+      .sizePalet2 {
+        border: 1px solid rgba(31, 31, 31, 1);
+        color: rgba(31, 31, 31, 1);
+      }
+
+      .sizePalet3 {
+        background-color: rgba(31, 31, 31, 1);
+        color: #fff;
+      }
+
+      .sizePalet4 {
+        border: 1px solid rgba(233, 233, 233, 1);
+        color: rgba(105, 108, 112, 1);
+      }
+
+      .sizePalet5 {
+        background-color: #f6f6f7;
+        color: #a1a0a1;
+        cursor: not-allowed;
+        position: relative;
+
+        &::before {
+          position: absolute;
+          content: "";
+          border: 1px dashed rgba(105, 108, 112, 0.3);
+          width: 100%;
+          transform: rotate(45deg);
+        }
+
+        &::after {
+          position: absolute;
+          content: "";
+          border: 1px dashed rgba(105, 108, 112, 0.3);
+          width: 100%;
+          transform: rotate(-45deg);
+        }
+      }
+    }
+
+    .quantity {
+      display: flex;
+      flex-direction: column;
+      gap: max(15px, 0.75vw);
+
+      .with16Medium {
+        text-transform: capitalize;
+      }
+
+      button {
+        outline: none;
+        border: none;
+        width: 100%;
+        height: max(48px, 2.4vw);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        background-color: rgba(31, 31, 31, 1);
+        border-radius: max(12px, 0.6vw);
+      }
+    }
+
+    .compareAndShare {
+      display: flex;
+      align-items: center;
+      gap: max(60px, 4vw);
+
+      .compareAndShare__card {
+        display: flex;
+        align-items: center;
+        gap: max(12px, 0.6vw);
+
+        .compareAndShare__iconBorder {
+          width: max(48px, 2.4vw);
+          height: max(48px, 2.4vw);
+          border-radius: max(12px, 0.6vw);
+          border: 1px solid rgba(233, 233, 233, 1);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          .compareAndShare__icon {
+            width: max(20px, 1vw);
+          }
+
+          .compareAndShare__icon1 {
+            content: url("../../../assets/shared/repeat.svg");
+          }
+
+          .compareAndShare__icon2 {
+            content: url("../../../assets/shared/share.svg");
+          }
+        }
+      }
+    }
+  }
+
+  .AllDetails__3 {
+    display: flex;
+    flex-direction: column;
+    gap: max(15px, 0.75vw);
+    .AllDetails__3__inside {
+      display: flex;
+      flex-direction: column;
+      gap: max(16px, 0.8vw);
+    }
+    .GetItToday {
+      display: flex;
+      align-items: center;
+      gap: max(12px, 0.6vw);
+      .GetItToday__icon {
+        width: max(32px, 1.6vw);
+      }
+      .GetItToday__texts {
+        display: flex;
+        flex-direction: column;
+        gap: max(9px, 0.45vw);
+        .with14Regular {
+          color: #696c70;
+        }
+      }
+    }
+  }
+}

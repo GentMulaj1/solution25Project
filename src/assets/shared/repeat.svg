@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20.455" viewBox="0 0 20 20.455">
+  <g id="repeat" transform="translate(0 0.228)">
+    <rect id="repeat_Frame_Background_" data-name="repeat [Frame Background]" width="20" height="20" fill="none"/>
+    <path id="Vector" d="M0,0,3.333,3.333,0,6.667" transform="translate(14.166 0.833)" fill="none" stroke="#1f1f1f" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <path id="Vector-2" data-name="Vector" d="M0,5V3.333A3.333,3.333,0,0,1,3.333,0H15" transform="translate(2.5 4.167)" fill="none" stroke="#1f1f1f" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <path id="Vector-3" data-name="Vector" d="M3.333,6.667,0,3.333,3.333,0" transform="translate(2.5 12.5)" fill="none" stroke="#1f1f1f" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <path id="Vector-4" data-name="Vector" d="M15,0V1.667A3.333,3.333,0,0,1,11.667,5H0" transform="translate(2.5 10.833)" fill="none" stroke="#1f1f1f" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  </g>
+</svg>

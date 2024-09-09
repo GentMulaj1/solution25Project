@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="16" viewBox="0 0 80 16">
+  <g id="Star" transform="translate(-32 -32)">
+    <g id="favorite_major" transform="translate(32 32)">
+      <rect id="favorite_major_Frame_Background_" data-name="favorite_major [Frame Background]" width="16" height="16" fill="none"/>
+      <path id="Primary_fill" data-name="Primary fill" d="M2.845,7.822.268,5.689A.711.711,0,0,1,.612,4.429l3.655-.163L5.828.353a.64.64,0,0,1,1.145,0L8.533,4.267l3.655.163a.711.711,0,0,1,.344,1.259L9.955,7.822l.7,4.165a.711.711,0,0,1-1.022.737L6.4,10.666,3.163,12.723a.711.711,0,0,1-1.022-.737Z" transform="translate(1.6 1.6)" fill="#ecb018" fill-rule="evenodd"/>
+    </g>
+    <g id="favorite_major-2" data-name="favorite_major" transform="translate(64 32)">
+      <rect id="favorite_major_Frame_Background_2" data-name="favorite_major [Frame Background]" width="16" height="16" fill="none"/>
+      <path id="Primary_fill-2" data-name="Primary fill" d="M2.845,7.822.268,5.689A.711.711,0,0,1,.612,4.429l3.655-.163L5.828.353a.64.64,0,0,1,1.145,0L8.533,4.267l3.655.163a.711.711,0,0,1,.344,1.259L9.955,7.822l.7,4.165a.711.711,0,0,1-1.022.737L6.4,10.666,3.163,12.723a.711.711,0,0,1-1.022-.737Z" transform="translate(1.6 1.6)" fill="#ecb018" fill-rule="evenodd"/>
+    </g>
+    <g id="favorite_major-3" data-name="favorite_major" transform="translate(48 32)">
+      <rect id="favorite_major_Frame_Background_3" data-name="favorite_major [Frame Background]" width="16" height="16" fill="none"/>
+      <path id="Primary_fill-3" data-name="Primary fill" d="M2.845,7.822.268,5.689A.711.711,0,0,1,.612,4.429l3.655-.163L5.828.353a.64.64,0,0,1,1.145,0L8.533,4.267l3.655.163a.711.711,0,0,1,.344,1.259L9.955,7.822l.7,4.165a.711.711,0,0,1-1.022.737L6.4,10.666,3.163,12.723a.711.711,0,0,1-1.022-.737Z" transform="translate(1.6 1.6)" fill="#ecb018" fill-rule="evenodd"/>
+    </g>
+    <g id="favorite_major-4" data-name="favorite_major" transform="translate(80 32)">
+      <rect id="favorite_major_Frame_Background_4" data-name="favorite_major [Frame Background]" width="16" height="16" fill="none"/>
+      <path id="Primary_fill-4" data-name="Primary fill" d="M2.845,7.822.268,5.689A.711.711,0,0,1,.612,4.429l3.655-.163L5.828.353a.64.64,0,0,1,1.145,0L8.533,4.267l3.655.163a.711.711,0,0,1,.344,1.259L9.955,7.822l.7,4.165a.711.711,0,0,1-1.022.737L6.4,10.666,3.163,12.723a.711.711,0,0,1-1.022-.737Z" transform="translate(1.6 1.6)" fill="#ecb018" fill-rule="evenodd"/>
+    </g>
+    <g id="favorite_major-5" data-name="favorite_major" transform="translate(96 32)">
+      <rect id="favorite_major_Frame_Background_5" data-name="favorite_major [Frame Background]" width="16" height="16" fill="none"/>
+      <path id="Primary_fill-5" data-name="Primary fill" d="M2.845,7.822.268,5.689A.711.711,0,0,1,.612,4.429l3.655-.163L5.828.353a.64.64,0,0,1,1.145,0L8.533,4.267l3.655.163a.711.711,0,0,1,.344,1.259L9.955,7.822l.7,4.165a.711.711,0,0,1-1.022.737L6.4,10.666,3.163,12.723a.711.711,0,0,1-1.022-.737Z" transform="translate(1.6 1.6)" fill="#ecb018" fill-rule="evenodd"/>
+    </g>
+  </g>
+</svg>
